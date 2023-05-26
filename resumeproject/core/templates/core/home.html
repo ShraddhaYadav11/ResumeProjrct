@@ -1,0 +1,117 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class=" mt-5">
+    <div class="text-center mt-5">
+        <img src="{% static 'core/images/pic3.jpg' %}" alt="profilepic" class="img-thumbnail " width="220px"
+            height="180px">
+    </div>
+    <div class=" mt-t-5 text-white mx-5 text-justify">
+        <h1 class="font-weight-bold st-font">Hello,</h1>
+        <div class="px-4" style="line-height: 1.5 rem;">
+            <p class="text-justify" style="text-indent:100px; ">I am <b class="text-warning">Shraddha Yadav</b>Web
+                Developer with 8 years of
+                experience in designing and developing user interfaces, testing, debugging, and training staff within
+                eCommerce
+                technologies. Proven ability in optimizing web functionality that improve data retrieval and workflow
+                efficiencies.</p>
+            <p class="text-justify"> Developed dynamic and interactive website that ensured high traffic, page views, and
+                User Experience, resulting
+                in 40% increase in sales revenue
+                Oversaw full lifecycle of software development for 9 projects with 100% on time delivery while staying
+                5% under
+                budget
+                Implemented server that expedited document generation and gradute from<b class="text-warning">Lokmanya
+                    Tilak
+                    College of Engineering</b> search functionality by 20%, earning commendation and award from upper
+                management
+                Designed processes for cleanup and performance improvement, that minimized downtime by 13%</p>
+            <p class="text-justify">
+                To the greatest extent possible, you need to come up with examples of your web development skills and
+                experience
+                to highlight in your resume.
+
+            </p>
+            <p><b class="text-warning st-font">Thanking You</b></p>
+        </div>
+    </div>
+    <div class="text-center ml-4 mr-10">
+     <a href="{% url 'contact' %}" class="btn btn-outline-warning mx-5">Hire me</a>
+     <a href="{% url 'contact' %}" class="btn btn-outline-info">Contact</a>
+    </div>
+</div>
+
+
+
+
+{% endblock content %}
+
+<!--<!DOCTYPE html>
+
+
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'core/css/all.min.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.css'%}">
+    <link rel="stylesheet" href="{% static 'core/css/core.css'%}">
+</head>
+<style>
+    .border-warning {
+    border-color: #ffc107!important;
+    border-right-style: solid;
+}
+hr:not([size]) {
+    height: 3px;
+    color: white;
+}
+</style>
+
+<body>
+
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="border-right border-warning ">
+                
+                    <div class="text-center">
+                        <img src="{% static 'core/images/pic3.jpeg' %}" alt="profilepic"
+                            class="img-fluid rounded-circle mt-5" width="100px" height="100px">
+                            <h4 class="text-light ">Shraddha Yadav</h4>
+                    </div>
+                    <hr class="border-light">
+
+                     <nav class="nav flex-column text-center">
+                        <a href="" class="nav-link">Home</a>
+                        <a href="" class="nav-link">services</a>
+                        <a href="" class="nav-link">Skill</a>
+                        <a href="" class="nav-link">contact</a>
+                     </nav>
+                 </div>
+
+            </div>
+
+            <div class="col-sm-10">
+                <div class="border-left border-dark h-100">
+                    main content
+                </div>
+            
+            </div>
+        </div>
+
+    </div>
+
+    <script src="{% static 'core/js/jquery.js' %}"></script>
+    <script src="{% static 'core/js/popper.js' %}"></script>
+    <script src="{% static 'core/js/bootstrap.js' %}"></script>
+    <script src="{% static 'core/js/all.min.js' %}"></script>
+</body>
+
+</html>-->
